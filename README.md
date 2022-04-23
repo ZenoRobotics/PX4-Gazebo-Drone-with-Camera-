@@ -12,13 +12,6 @@ https://dev.px4.io/v1.10_noredirect/en/ros/mavros_installation.html
 
 Assuming all of the software tools listed above have been properly installed, start them up in the following order: 
 
-1) Build Mavros/Mavlink ROS directory
-
-```
-cd ~/PX4_Drone_Sim_Proj/catkin_drone_test_ws
-catkin build
-```
-
 1) Start mavros in a terminal (T1) 
 
 ```
