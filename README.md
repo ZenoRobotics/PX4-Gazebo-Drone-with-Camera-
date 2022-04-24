@@ -7,6 +7,8 @@ https://docs.px4.io/v1.12/en/dev_setup/dev_env_linux_ubuntu.html
 
 The directions below for running the drone simulation below assumes that you place the PX4 software under the /PX4_Drone_Sim_Proj director. This isn't necessary, you just have to modify the T2 directions below to cd into your PX4-Autopilot directory location.
 
+For step 3 below, an updated QGC can be found and installed following directions and link here: https://docs.qgroundcontrol.com/master/en/getting_started/download_and_install.html
+
 ***Additionally, mavros and mavlink need to be downloaded or cloned into the src directory. See:
 https://dev.px4.io/v1.10_noredirect/en/ros/mavros_installation.html
 
