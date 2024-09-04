@@ -12,8 +12,7 @@ https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/downloa
 ***Note: This executable is not for ARM processors as found in the NVIDA TX2, NANO and similar. To compile the code from source for the ARM 32/64 bit processors, you may run into QT version issues.
 
 ***Additionally, mavros and mavlink need to be downloaded or cloned into the src directory. See:
-https://dev.px4.io/v1.10_noredirect/en/ros/mavros_installation.html
-
+https://docs.px4.io/main/en/ros/mavros_installation.html  (for ROS 1)
 Assuming all of the software tools listed above have been properly installed, start them up in the following order: 
 
 1) Start mavros in a terminal (T1) 
