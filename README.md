@@ -3,7 +3,8 @@
 Setup Directions:
 
 Download or cloned code here. Then download and build the PX4 software which can be foud here with instructions:
-https://docs.px4.io/v1.12/en/dev_setup/dev_env_linux_ubuntu.html
+https://docs.px4.io/v1.12/en/dev_setup/dev_env_linux_ubuntu.html  as well as here: 
+https://docs.px4.io/main/en/dev_setup/building_px4.html
 
 The directions below for running the drone simulation below assumes that you place the PX4 software under the /PX4_Drone_Sim_Proj director. This isn't necessary, you just have to modify the T2 directions below to cd into your PX4-Autopilot directory location.
 
