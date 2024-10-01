@@ -48,3 +48,10 @@ source devel/setup.bash
 cd ./src/scripts
 ./wp_mission_Drone.py
 ```
+
+## Video of Simulation
+
+ZenoRobotics Youtube Channel: 
+
+https://www.youtube.com/watch?v=dDwepReUtww&t=12s
+
