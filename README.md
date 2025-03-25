@@ -1,5 +1,7 @@
 ## Running Scripts with Gazebo, PX4, Mavros and QGroundControl (SITL)
 
+OS Used: Ubuntu 20.04
+
 Setup Directions:
 
 Download or cloned code here. Then download and build the PX4 software which can be foud here with instructions:
