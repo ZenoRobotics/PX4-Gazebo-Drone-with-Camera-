@@ -1,8 +1,10 @@
-Running Scripts with Gazebo, PX4, Mavros and QGroundControl (SITL)
+## Running Scripts with Gazebo, PX4, Mavros and QGroundControl (SITL)
 
-Setup Directions:
+### Setup Directions:
 
-Download or clonee code here. Then download and build the PX4 software which can be found here with instructions: https://docs.px4.io/master/en/dev_setup/building_px4.html . The directions below for running the drone simulation below assumes that you place the PX4 software under the /PX4_Drone_Sim_Proj director. This isn't necessary, you just have to modify the T2 directions below to cd into your PX4-Autopilot directory location.
+Download or clone code here. Then download and build the PX4 software, as well as mavros and mavlink, which can be found here with instructions: [https://docs.px4.io/master/en/dev_setup/building_px4.html](https://docs.px4.io/main/en/ros/mavros_installation.html) . 
+
+The directions below for running the drone simulation below assumes that you place the PX4 software under the /PX4_Drone_Sim_Proj director. This isn't necessary, you just have to modify the T2 directions below to cd into your PX4-Autopilot directory location.
 
 Assuming all of the software tools listed above have been properly installed, start them up in the following order:
 
@@ -36,4 +38,15 @@ In a fourth terminal (T4), run either the waypoint mission script
     cd ./src/scripts
     ./wp_mission_Drone.py
 
+
+### Notes:
+
+Ubuntu 20.04 uses an older version of 'GLIBC_'. If you download and use the newest version of QGroundControl, you will most likely get the following error when tryin to run QGC:
+
+    /tmp/.mount_QGrounFGCmaK/usr/bin/QGroundControl: /lib/x86_64-linux-gnu/libc.so.6: 
+    version `GLIBC_2.33' not found (required by /tmp/.mount_QGrounFGCmaK/usr/lib/libFLAC.so.8)
+
+The easiest way to get around this is to download an older version (v4.3.0) of QGC from:
+
+https://github.com/mavlink/qgroundcontrol/releases/tag/v4.3.0
 
