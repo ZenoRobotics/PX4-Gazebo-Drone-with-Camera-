@@ -48,7 +48,7 @@ Ubuntu 20.04 uses an older version of 'GLIBC_'. If you download and use the newe
     /tmp/.mount_QGrounFGCmaK/usr/bin/QGroundControl: /lib/x86_64-linux-gnu/libc.so.6: 
     version `GLIBC_2.33' not found (required by /tmp/.mount_QGrounFGCmaK/usr/lib/libFLAC.so.8)
 
-The easiest way to get around this is to download an older version (v4.3.0) of QGC from:
+The easiest way to get around this is to download an older version (e.g., v4.3.0) of QGC from:
 
 https://github.com/mavlink/qgroundcontrol/releases/tag/v4.3.0
 
