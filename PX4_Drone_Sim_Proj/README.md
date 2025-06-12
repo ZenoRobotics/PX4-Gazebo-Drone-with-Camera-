@@ -65,5 +65,10 @@ A simple fix to this is to create a link for opencv2 as follows:
 
     sudo ln -s /usr/include/opencv4/opencv2 /usr/include/opencv2
 
+## Offboard Comm Between RPi4 and Pixhawk 2.4.8
+
+Launch connection mavros connection between RPi and Pixhawk
+
+    roslaunch mavros px4.launch fcu_url:="serial:///dev/ttyUSB0:115200"
 
     
