@@ -39,7 +39,9 @@ In a fourth terminal (T4), run either the waypoint mission script
     ./wp_mission_Drone.py
 
 
-### Notes:
+## Notes:
+
+### QGroundControl
 
 Ubuntu 20.04 uses an older version of 'GLIBC_'. If you download and use the newest version of QGroundControl, you will most likely get the following error when tryin to run QGC:
 
@@ -50,3 +52,18 @@ The easiest way to get around this is to download an older version (v4.3.0) of Q
 
 https://github.com/mavlink/qgroundcontrol/releases/tag/v4.3.0
 
+### PX4-Gazebo
+
+When running make under PX4-Autopilot/ (e.g., make px4_sitl gazebo_typhoon_h480) you may get the following error:
+
+    ... fatal error: opencv2/opencv.hpp: No such file or directory
+    12 | #include <opencv2/opencv.hpp>
+                 |^~~~~~~~~~~~~~~~~~~~
+    compilation terminated.
+
+A simple fix to this is to create a link for opencv2 as follows:
+
+    sudo ln -s /usr/include/opencv4/opencv2 /usr/include/opencv2
+
+
+    
